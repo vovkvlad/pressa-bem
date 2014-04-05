@@ -1,0 +1,36 @@
+.outer-breaking-news{
+    padding: 2px;
+    position: relative;
+    margin-bottom: 50px;
+    height: 220px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 15px rgba(0,0,0,0.4);
+    background: url("src/ef56.jpg");/*decide something with background*/
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.inner-breaking-news{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background: rgba(0,0,0,0.7);
+    border-radius: 0 0 15px 15px;
+}
+
+.inner-breaking-news h2{
+    margin: 0;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+}
+
+.inner-breaking-news a{
+    text-decoration: none;
+}
+
+.inner-breaking-news a:hover{
+    text-shadow: 0 0 4px  rgba(255,255,255, 0.7);
+}
