@@ -1,0 +1,46 @@
+.accordian{
+    margin: 0px 0px 40px;
+    width: 250px;
+    color: white;
+}
+
+.accordian ul{
+    margin: 0px;
+    padding: 0px;
+}
+.accordian h3 {
+    margin: 0px;
+    border-radius: 15px 15px 15px 15px;
+    line-height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 0  10px;
+    background: #ea4731;
+    box-shadow: 4px 4px 15px rgba(0,0,0,0.4);
+}
+.accordian h3:hover{
+    text-shadow: 0 0 1px  rgba(255,255,255, 0.7);
+}
+.accordian li{
+    list-style-type: none;
+}
+.accordian ul ul li a {
+    font-family: 'Noto Sans';
+    margin-left: 15px;
+    margin-right: 10px;
+    background: rgba(0,0,0,0.4);
+    color: white;
+    line-height: 27px;
+    display: block;
+    padding: 0  15px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: all  0.15s;
+}
+.accordian ul ul li a:hover{
+    background: rgba(0,0,0,0.7) ;
+    border-left: 5px solid red;
+}
+.accordian ul ul {
+    display:none;
+}

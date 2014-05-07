@@ -5,7 +5,7 @@ BN.addDecl('main-page', 'page',{
     route: /^\/$/
 }).staticProp({
         init: function(){
-            /* here should be connected all page blocks via this.out*/
+            return this.out({block: 'main-container'});
         },
         update: function(){
 
@@ -13,4 +13,5 @@ BN.addDecl('main-page', 'page',{
         destruct: function(){
 
         }
-    }).setTtile('Прес-центр Кну').setMeta('CONTENT-TYPE', 'text/html; charset=utf-8');
+    });
+//.setTtile('Прес-центр Кну').setMeta('CONTENT-TYPE', 'text/html; charset=utf-8')

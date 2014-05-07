@@ -1,0 +1,10 @@
+.newsblock-imagehandler{
+    overflow: hidden;
+    float: left;
+    height: 230px;
+    width: 230px;
+}
+.newsblock-imagehandler img{
+    height: 100%;
+    width: 100%;
+}

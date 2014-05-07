@@ -39,6 +39,3 @@ BN.addDecl('info').blockTemplate(function(ctx){
         }
     });
 
-BN.addDecl('bold').blockTemplate(function(ctx){
-    ctx.tag('b');
-});

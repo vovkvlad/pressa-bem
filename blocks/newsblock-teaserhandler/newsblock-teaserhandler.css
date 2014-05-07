@@ -1,0 +1,20 @@
+.newsblock-teaserhandler{
+    margin-left: 240px;
+}
+.newsblock-teaserhandler h2{
+    margin: 0 0 0.83em;
+}
+.newsblock-teaserhandler h2 a{
+    color: black;
+}
+.newsblock-teaserhandler h2 a:hover{
+    color: rgba(0,0,0,0.6);
+}
+.newsblock-teaserhandler p {
+    margin: 0px;
+}
+.line{
+    margin-bottom: 19.20px;
+    height: 2px;
+    background: linear-gradient(to bottom, #6E6E6E, #FFFFFF);
+}
