@@ -1,5 +1,5 @@
 BN.addDecl('accordian-list-item-nestedlist').blockTemplate(function(ctx){
-    var text = ctx.param('lastTitles');
+    var text = ctx.param('lastTitles') || [];
     ctx.tag('ul');
     ctx.content(text.map(function (item) {
         return {elem: 'nested-list-item', liText: item.title, nid: item.nid};
@@ -16,7 +16,7 @@ BN.addDecl('accordian-list-item-nestedlist').blockTemplate(function(ctx){
         }
     });
 
-BN('accordian-list-item-nestedlist').instanceProp({
+BN.addDecl('accordian-list-item-nestedlist').instanceProp({
     open: function(){
         this.domElem.slideDown();
     },

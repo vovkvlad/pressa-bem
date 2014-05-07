@@ -8,7 +8,7 @@ BN.addDecl('accordian-list').blockTemplate(function(ctx){
     ]);
 });
 
-BN('accordian-list').instanceProp({
+BN.addDecl('accordian-list').instanceProp({
     osSetMod: {
         'js': function(){
             this.items = findBlocksInside('accordian-list-item');
