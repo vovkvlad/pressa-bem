@@ -1,5 +1,5 @@
 BN.addDecl('inner-breaking-news').blockTemplate(function(ctx){
-    var linkinfo = ctx.param('breakingNews');
+    var linkinfo = ctx.param('breakingNews') || {};
     ctx.content({elem: 'title', text: linkinfo.title, url: linkinfo.nid})
 }).elemTemplate({
         'title': function(ctx){

@@ -1,3 +1,3 @@
 BN.addDecl('pressa-api', 'ajax', {
-    apiHost: 'http://localhost/'
+  apiHost: 'http://localhost:3000/'
 });

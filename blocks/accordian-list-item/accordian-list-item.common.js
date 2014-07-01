@@ -11,7 +11,7 @@ BN.addDecl('accordian-list-item').blockTemplate(function(ctx){
         }
     });
 
-BN('accordian-list-item').instanceProp({
+BN.addDecl('accordian-list-item').instanceProp({
     onSetMod: {
         'js': function(){
             this.nestedList = this.findBlockInside('accordian-list-item-nestedlist');
