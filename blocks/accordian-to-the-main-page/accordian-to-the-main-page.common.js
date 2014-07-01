@@ -9,8 +9,8 @@ BN.addDecl('accordian-to-the-main-page').blockTemplate(function(ctx){
             ctx.tag('h3');
             ctx.content({
                 block: 'b-link',
-                url: 'pressa.univ.kiev.ua',
-                content: 'linkinfo.text'
+                url: 'http://pressa.univ.kiev.ua',
+                content: linkinfo.text
             });
         }
     });

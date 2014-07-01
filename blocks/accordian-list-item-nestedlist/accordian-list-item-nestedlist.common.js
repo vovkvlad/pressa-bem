@@ -7,6 +7,7 @@ BN.addDecl('accordian-list-item-nestedlist').blockTemplate(function(ctx){
 
 }).elemTemplate({ //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ask about linking logic !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         'nested-list-item': function(ctx){
+            ctx.tag('li');
             var linkInfo = ctx.json();
             ctx.content({
                 block: 'b-link',
