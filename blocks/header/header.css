@@ -1,4 +1,4 @@
-#header{
+.header{
     margin-bottom: 50px;
     height: 70px;
     background-color: #ea4731;
@@ -6,7 +6,7 @@
     box-shadow: 4px 4px 15px rgba(0,0,0,0.4);
 }
 
-#header h1{
+.header h1{
     margin: 0;
     color: white;
     text-align: center;
