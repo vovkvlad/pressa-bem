@@ -21,6 +21,11 @@
 .accordian h3:hover{
     text-shadow: 0 0 1px  rgba(255,255,255, 0.7);
 }
+
+.accordian a.b-link {
+    text-decoration: none;
+    color: white;
+}
 .accordian li{
     list-style-type: none;
 }

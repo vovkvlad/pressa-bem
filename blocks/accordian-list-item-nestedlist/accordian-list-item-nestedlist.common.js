@@ -14,6 +14,14 @@ BN.addDecl('accordian-list-item-nestedlist').blockTemplate(function(ctx){
                 url: 'pressa.univ.kiev.ua/' + linkInfo.nid,
                 content: linkInfo.liText
             });
+        },
+        'nested-list-item-see-others': function(ctx){
+            ctx.tag('li');
+            ctx.content({
+                block: "b-link",
+                url: "http://pressa.univ.kiev.ua",
+                content: "Litext"
+            });
         }
     });
 
