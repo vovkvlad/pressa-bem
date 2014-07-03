@@ -1,17 +1,3 @@
-BN.addDecl('accordian-list-item').blockTemplate(function(ctx){
-    var title = ctx.param('item_title');
-    ctx.js(true);
-    ctx.tag('li');
-    ctx.content([
-        {elem : 'title', content: title},
-        {block: 'accordian-list-item-nestedlist', category: title}
-    ]);
-}).elemTemplate({
-        'title': function(ctx){
-            ctx.tag('h3');
-        }
-    });
-
 BN.addDecl('accordian-list-item').onSetMod({
     'js': function(){
         this.elem('title').on('click', this.trigger.bind(this, 'click'));
@@ -40,4 +26,3 @@ BN.addDecl('accordian-list-item').onSetMod({
             else {this.nestedList.close().bind(this);}
         }
     });
-
