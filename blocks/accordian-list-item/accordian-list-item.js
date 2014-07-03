@@ -23,6 +23,8 @@ BN.addDecl('accordian-list-item').onSetMod({
                 this.nestedList.open().bind(this);
 //            dom.open();
             }
-            else {this.nestedList.close().bind(this);}
+        },
+        _close: function(){
+            this.nestedList.close();
         }
     });
