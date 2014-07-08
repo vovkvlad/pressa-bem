@@ -4,7 +4,8 @@
     "dependencies": {
         "bem-node": "0.8.7",
         "enb": "0.8.43",
-        "enb-bemhtml": "0.2.1"
+        "enb-bemhtml": "0.2.1",
+        "vow": "0.4.4"
     },
     "engines": {
         "node": ">= 0.8.0"

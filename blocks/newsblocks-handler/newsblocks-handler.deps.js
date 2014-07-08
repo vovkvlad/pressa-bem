@@ -3,7 +3,7 @@
         {block: 'newsblock'}
     ],
     mustDeps:[
-        {block: 'pressa-api'},
-        {block: 'pressa-img-api'}
+        {block: 'pressa-api'}/*,
+        {block: 'pressa-img-api'}*/
     ]
 })
