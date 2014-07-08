@@ -20,7 +20,7 @@ BN.addDecl('accordian-list-item').onSetMod({
             //if(!(this.nestedList.is(':visible')))
             if(!(dom.is(':visible')))
             {
-                this.nestedList.open().bind(this);
+                this.nestedList.open();
 //            dom.open();
             }
         },
