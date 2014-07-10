@@ -1,5 +1,6 @@
 ({
     mustDeps: [
-        {block: 'pressa-api'}
+        {block: 'pressa-api'},
+        {block: 'b-link'}
     ]
 })

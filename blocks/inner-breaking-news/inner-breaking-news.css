@@ -10,15 +10,19 @@
 
 .inner-breaking-news h2{
     margin: 0;
-    color: white;
     text-align: center;
     line-height: 70px;
 }
 
 .inner-breaking-news a{
     text-decoration: none;
+    color: white;
 }
 
 .inner-breaking-news a:hover{
     text-shadow: 0 0 4px  rgba(255,255,255, 0.7);
+}
+
+.inner-breaking-news a:visited{
+    color: white;
 }
