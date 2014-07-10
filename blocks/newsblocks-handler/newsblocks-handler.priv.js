@@ -4,10 +4,8 @@ BN.addDecl('newsblocks-handler').dataTemplate(function(ctx){
     //на урл 'http://localhost/', тобто на головну сторінку сайта,
     //це призводить до ще одного такого ж запиту, ну і т.д.
     //фіксим це зміною урл-а в blocks/pressa-api/pressa-api.priv.js
-    BN('pressa-api').get('/').then(function(data){
-        console.log(data);
+    return BN('pressa-api').get('/').then(function(data){
         ctx.param('LastNews', data);
-        console.log(ctx.param('LastNews'));
     });
     //WTF????
     //BN('pressa-img-api').get().then(function(data){});

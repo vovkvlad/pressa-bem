@@ -13,7 +13,7 @@
 .newsblock-teaserhandler p {
     margin: 0px;
 }
-.line{
+.newsblock-teaserhandler__line{
     margin-bottom: 19.20px;
     height: 2px;
     background: linear-gradient(to bottom, #6E6E6E, #FFFFFF);
