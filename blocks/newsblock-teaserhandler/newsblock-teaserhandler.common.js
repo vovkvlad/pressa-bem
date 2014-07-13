@@ -9,7 +9,7 @@ BN.addDecl('newsblock-teaserhandler').blockTemplate(function(ctx){
         'newstitle': function(ctx){
             var elemdata = ctx.json();
             ctx.tag('h2');
-            ctx.content({block: 'b-link',  url:'pressa.univ.kiev.ua/' + elemdata.newsid, content: elemdata.text });
+            ctx.content({block: 'b-link',  url: elemdata.newsid, content: elemdata.text });
         },
         'teaser': function(ctx){
             var text = ctx.param('text');

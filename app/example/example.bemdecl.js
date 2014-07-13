@@ -6,5 +6,6 @@ exports.blocks = [
     {block: 'i-bem-node'}, //bem-node api
 
     // pages
-    {block: 'main-page'}
+    {block: 'main-page'},
+    {block: 'article-page'}
 ];

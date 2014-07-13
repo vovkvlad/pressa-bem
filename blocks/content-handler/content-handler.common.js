@@ -1,6 +1,17 @@
 BN.addDecl('content-handler').blockTemplate(function(ctx){
-    ctx.content([
-        {block: 'sidebar'},
-        {block: 'newsblocks-handler'}
-    ])
+    var params = ctx.json();
+    if(!params.isarticle)
+    {
+        ctx.content([
+            {block: 'sidebar'},
+            {block: 'newsblocks-handler'}
+        ])
+    }
+    else
+    {
+        ctx.content([
+            {block: 'sidebar'}
+        ]);
+    }
+
 });

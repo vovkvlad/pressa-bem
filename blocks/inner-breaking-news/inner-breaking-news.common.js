@@ -7,7 +7,7 @@ BN.addDecl('inner-breaking-news').blockTemplate(function(ctx){
             ctx.tag('h2');
             ctx.content({
                 block: 'b-link',
-                url: 'pressa.univ.kiev.ua/' + data.url,
+                url: data.url,
                 content: data.text
             });
         }
