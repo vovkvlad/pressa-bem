@@ -11,7 +11,7 @@ BN.addDecl('accordian-list-item-nestedlist').blockTemplate(function(ctx){
             var linkInfo = ctx.json();
             ctx.content({
                 block: 'b-link',
-                url: 'pressa.univ.kiev.ua/' + linkInfo.nid,
+                url:  linkInfo.nid,
                 content: linkInfo.liText
             });
         },
