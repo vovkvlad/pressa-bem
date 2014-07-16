@@ -1,0 +1,22 @@
+.article{
+    font-family: 'Noto Sans';
+    border-radius: 15px;
+    padding: 20px;
+    background: white;
+    margin-left: 255px;
+    height:auto;
+    min-height: inherit;
+    box-shadow: 4px 4px 15px rgba(0,0,0,0.4);
+
+}
+.article img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 760px;
+}
+.article__line{
+    margin-bottom: 19.20px;
+    height: 2px;
+    background: linear-gradient(to bottom, #6E6E6E, #FFFFFF);
+}

@@ -10,7 +10,8 @@ BN.addDecl('content-handler').blockTemplate(function(ctx){
     else
     {
         ctx.content([
-            {block: 'sidebar'}
+            {block: 'sidebar'},
+            {block: 'article', newsid: params.isarticle}
         ]);
     }
 

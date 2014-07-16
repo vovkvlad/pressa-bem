@@ -1,6 +1,7 @@
 ({
     shouldDeps: [
         {block: 'sidebar'},
-        {block: 'newsblocks-handler'}
+        {block: 'newsblocks-handler'},
+        {block: 'article'}
     ]
 })
